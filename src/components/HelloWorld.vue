@@ -1,3 +1,8 @@
+<!--
+	作者：347526189@qq.com
+	时间：2018-09-03
+	描述：引入外部js语言包
+-->
 <template>
     <div class="hello">
         <!--在标签中使用-->
@@ -8,10 +13,9 @@
 
         <button @click="lang('zh-CN')">简体中文</button>
         <button @click="lang('zh-TW')">繁体中文</button>
-        <button @click="lang('en-US')">English</button>
+        <button @click="lang('en-US')">English</button>    
     </div>
 </template>
-
 <script>
     export default {
         name: 'HelloWorld',
